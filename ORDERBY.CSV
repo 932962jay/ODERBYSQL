@@ -1,0 +1,7 @@
+select* from sales
+
+select product_id,qty from sales
+select product_id,qty from sales order by product_id asc
+select qty from sales order by  qty desc
+
+select product_id,qty from sales order by product_id asc, qty desc
